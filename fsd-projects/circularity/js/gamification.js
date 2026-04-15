@@ -183,7 +183,7 @@ var Gamification = (function () {
     var tooltip = new createjs.Text(text, "bold 14px Arial", color);
     tooltip.textAlign = "center";
     tooltip.textBaseline = "middle";
-    tooltip.shadow = new createjs.Shadow("rgba(0,0,0,0.7)", 2, 2, 3);
+    tooltip.shadow = new createjs.Shadow("rgba(54, 7, 7, 0.7)", 2, 2, 3);
 
     // Store the tooltip with the player
     player.tooltip = tooltip;
